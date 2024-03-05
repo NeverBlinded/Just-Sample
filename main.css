@@ -1,0 +1,159 @@
+@media screen and (max-width: 323px) {
+    body {
+        font-size:1.5em;
+    }
+    …
+    h2 {
+        font-size:2.5em;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: silver;
+}
+
+#about {
+    color: #fff;
+    background: #333;
+    width: 200px;
+    height: 40px;
+    border: #333;
+    text-decoration: none;
+    
+}
+
+#nav {
+    list-style: none;
+    display: block;
+    float: left;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.opis{
+    display: inline;
+    background: silver;
+    color: #333;
+    border: 1px solid #333;
+    padding: 0 20px;
+    cursor: pointer;
+    margin-top: 50px;
+    position: relative;
+    text-decoration: none;
+    color: #333;
+    user-select: none;
+}
+
+.opis:hover {
+    color: #fff;
+    background: #333;
+    border-radius: 5px;
+}
+
+.opis:not(:last-of-type) {
+    margin-right: 20px;
+}
+
+#header{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+    background: #333;
+    line-height: 50px;
+    color: #fff;
+    float: right;
+    margin-bottom: 50px;
+    padding: 5px 0.8%;
+    user-select: none;
+}
+
+#footer {
+    width: 100%;
+    background: #fafafa;
+    border: 1px solid #333;
+    padding:10px;
+    background: #333;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    float: left;
+    user-select: none;
+}
+
+#main {
+    width: 50%;
+    margin-left: 10%;
+    background: #fafafa;
+    border: 1px solid #333;
+    padding: 20px 2.5%;
+    margin-bottom: 50px;
+    background: #333;
+    color: #fff;
+    float: left;
+    z-index: 1;
+    border-radius: 10px;
+    user-select: none;
+}
+
+#aside {
+    width: 20%;
+    padding: 20px 2.5%;
+    background: #333;
+    color: #fff;
+    border: 1px solid #333;
+    float: left;
+    position: relative;
+    right: -1px;
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+}
+
+#about:hover {
+    color: wheat;
+}
+
+#ab {
+    cursor: pointer;
+    background: #333;
+    color: #fff;
+    position: absolute;
+    width: 20.4%;
+    margin-top: 0px;
+    height: 60px;
+    float: left;
+    display: block;
+    left: 0;
+    user-select: none;
+    user-select: none;
+}
+
+
+.d {
+    display: block;
+    background: silver;
+    color: #333;
+    border: 1px solid black;
+    padding: 0 20px;
+    cursor: pointer;
+    margin-top: 2px;
+    position: relative;
+    text-decoration: none;
+    color: #333;
+    width: 80px;
+    user-select: none;
+}
+.d:hover {
+    color: #fff;
+    background: #333;
+    border-radius: 5px;
+}
